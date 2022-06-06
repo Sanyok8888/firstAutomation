@@ -59,6 +59,9 @@ public class CheckBoxTest {
         for (WebElement checkbox : checkboxesList) {
             checkbox.click();
         }
+        for (WebElement checkbox : checkboxesList) {
+            checkbox.isSelected();
+        }
     }
 
     @AfterClass
