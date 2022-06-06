@@ -13,13 +13,13 @@ public class CheckBoxTest {
     private String baseUrl = "http://www.leafground.com/pages/checkbox.html";
 
     By languageBlockCheckBoxLocator = By.xpath("//div[@class='example'][1]//input[@type='checkbox'][1]");
-    By confirmSeleniumIsCheckedCheckboxLocator = By.xpath("//div[@class='example'][2]//input[@type='checkbox'][1]");
+    By confirmSeleniumIsCheckedBlockCheckboxLocator = By.xpath("//div[@class='example'][2]//input[@type='checkbox'][1]");
     By deselectOnlyCheckedBlockCheckboxLocator = By.xpath("//div[@class='example'][3]//input[@type='checkbox'][2]");
     By selectAllBelowCheckboxesBlockLocator = By.xpath("//div[@class='example']/label[@for='java'] [text()='Select all below checkboxes ']/following-sibling::input");
 
     WebElement languageBlockCheckBox;
     WebElement confirmSeleniumIsCheckedBlockCheckbox;
-    WebElement deselectOnlyCheckedBlockCheckbox;
+    WebElement deselectOnlyCheckedCheckbox;
     List selectAllBelowCheckboxes;
 
     private WebDriver driver;
@@ -31,8 +31,8 @@ public class CheckBoxTest {
         driver.get(baseUrl);
 
         languageBlockCheckBox = driver.findElement(languageBlockCheckBoxLocator);
-        confirmSeleniumIsCheckedBlockCheckbox = driver.findElement(confirmSeleniumIsCheckedCheckboxLocator);
-        deselectOnlyCheckedBlockCheckbox = driver.findElement(deselectOnlyCheckedBlockCheckboxLocator);
+        confirmSeleniumIsCheckedBlockCheckbox = driver.findElement(confirmSeleniumIsCheckedBlockCheckboxLocator);
+        deselectOnlyCheckedCheckbox = driver.findElement(deselectOnlyCheckedBlockCheckboxLocator);
         selectAllBelowCheckboxes = driver.findElements(selectAllBelowCheckboxesBlockLocator);
     }
 
@@ -49,8 +49,8 @@ public class CheckBoxTest {
 
     @Test
     public void checkDeselectOnlyCheckedCheckboxTest() {
-        deselectOnlyCheckedBlockCheckbox.click();
-        Assert.assertFalse(deselectOnlyCheckedBlockCheckbox.isSelected());
+        deselectOnlyCheckedCheckbox.click();
+        Assert.assertFalse(deselectOnlyCheckedCheckbox.isSelected());
     }
 
     @Test
