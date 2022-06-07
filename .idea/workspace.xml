@@ -5,10 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04c6655c-fa49-4516-9d99-9607ab4a4891" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/testData/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ukrnet/UkrNetTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myautomation-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CheckBoxTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,11 +31,6 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="checkboxes-homework" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="29l2sk1Ra4EEo5qtX3BSuoFHSp7" />
@@ -42,12 +45,22 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="TestNG.UkrNetTest">
+  <component name="RunManager" selected="TestNG.CheckBoxTest">
+    <configuration name="CheckBoxTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="myautomation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CheckBoxTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CheckBoxTest.checkConfirmSeleniumIsCheckedCheckboxTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="myautomation" />
       <option name="PACKAGE_NAME" value="" />
@@ -96,30 +109,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UkrNetTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="myautomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ukrnet.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ukrnet" />
-      <option name="MAIN_CLASS_NAME" value="ukrnet.UkrNetTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.UkrNetTest" />
-        <item itemvalue="TestNG.CheckBoxTest.selectLanguageBlockCheckBoxTest" />
+        <item itemvalue="TestNG.CheckBoxTest" />
         <item itemvalue="TestNG.CheckBoxTest.selectAllBelowCheckboxesTest" />
         <item itemvalue="TestNG.CheckBoxTest.checkDeselectOnlyCheckedCheckboxTest" />
         <item itemvalue="TestNG.CheckBoxTest.checkConfirmSeleniumIsCheckedCheckboxTest" />
+        <item itemvalue="TestNG.CheckBoxTest.selectLanguageBlockCheckBoxTest" />
       </list>
     </recent_temporary>
   </component>
