@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04c6655c-fa49-4516-9d99-9607ab4a4891" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/myautomation-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CheckBoxTest.class" beforeDir="false" />
+    <list default="true" id="04c6655c-fa49-4516-9d99-9607ab4a4891" name="Changes" comment="Resolve conflicts">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +22,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="29l2sk1Ra4EEo5qtX3BSuoFHSp7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -49,7 +47,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="TestNG.CheckBoxTest">
+  <component name="RunManager" selected="TestNG.UkrNetTest">
     <configuration name="CheckBoxTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="myautomation" />
       <option name="PACKAGE_NAME" value="" />
@@ -97,12 +95,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckBoxTest.selectLanguageBlockCheckBoxTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="UkrNetTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="myautomation" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CheckBoxTest" />
-      <option name="METHOD_NAME" value="selectLanguageBlockCheckBoxTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ukrnet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ukrnet" />
+      <option name="MAIN_CLASS_NAME" value="ukrnet.UkrNetTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -111,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.UkrNetTest" />
         <item itemvalue="TestNG.CheckBoxTest" />
         <item itemvalue="TestNG.CheckBoxTest.selectAllBelowCheckboxesTest" />
         <item itemvalue="TestNG.CheckBoxTest.checkDeselectOnlyCheckedCheckboxTest" />
         <item itemvalue="TestNG.CheckBoxTest.checkConfirmSeleniumIsCheckedCheckboxTest" />
-        <item itemvalue="TestNG.CheckBoxTest.selectLanguageBlockCheckBoxTest" />
       </list>
     </recent_temporary>
   </component>
@@ -141,5 +144,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="WWWW" />
+    <MESSAGE value="Resolve conflicts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Resolve conflicts" />
   </component>
 </project>
