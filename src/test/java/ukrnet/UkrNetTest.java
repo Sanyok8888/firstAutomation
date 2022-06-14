@@ -38,6 +38,7 @@ public class UkrNetTest {
         mailinatorPage.inputMailinatorEmail();
         mailinatorPage.clickGoButton();
         mailinatorPage.clickOnLastReceivedLetterOnMailinator();
+        //перевір тему листа в тесті в цьому степі
         Assert.assertEquals("automation1@ukr.net", mailinatorPage.getSenderEmail());
         Assert.assertEquals("test body", mailinatorPage.getTextFromReceivedMailOnMailinator());
 
