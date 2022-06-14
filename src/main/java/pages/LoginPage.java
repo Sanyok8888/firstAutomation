@@ -2,22 +2,24 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import testData.User;
+import testdata.User;
 
-public class LoginPage {
-    private WebDriver driver;
-    private String baseUrl = "https://mail.ukr.net/";
-    private By loginField = By.name("[name='login']");
+public class LoginPage extends BasePage {
+
+    private By loginField = By.name("login");
     private By passwordField = By.cssSelector("[name='password']");
     private By submitButton = By.cssSelector("[type='submit']");
 
-    public LoginPage(WebDriver driver){
-        this.driver = driver;
+    public LoginPage(WebDriver driver) {
+        super(driver);
+        pageUrl = "https://mail.ukr.net/";
     }
 
-    public void navigate(){}
+    public void navigate() {
+        driver.get(pageUrl);
+    }
 
-    public void login(User user){
+    public void login(User user) {
         driver.findElement(loginField).sendKeys(user.getLogin());
         driver.findElement(passwordField).sendKeys(user.getPassword());
         driver.findElement(submitButton).click();
