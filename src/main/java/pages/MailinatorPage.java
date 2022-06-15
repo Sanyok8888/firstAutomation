@@ -7,12 +7,13 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class MailinatorPage extends BasePage {
 
-    private By mailinatorSearchField = By.xpath("//input[@id='search']");
-    private By mailimatorGoButton = By.xpath("//button[text()='GO']");
-    private By lastReceivedEmailOnMailinator = By.xpath("//table[@class='table-striped jambo_table']//tbody//tr[1]");
+    private By mailinatorSearchFieldLocator = By.xpath("//input[@id='search']");
+    private By mailinatorGoButtonLocator = By.xpath("//button[text()='GO']");
+    private By lastReceivedEmailOnMailinatorLocator = By.xpath("//table[@class='table-striped jambo_table']//tbody//tr[1]");
     private By emailSenderLocator = By.xpath("//div[@class='wrapper-info-title d-flex']//div[contains(text(),'automation1@ukr.net')]");
-    private By accessToMailinatorEmailBody = By.id("html_msg_body");
-    private By mailinatorLetter = By.xpath("//span[@class='xfmc1']");
+    private By accessToMailinatorEmailBodyLocator = By.id("html_msg_body");
+    private By mailinatorLetterLocator = By.xpath("//span[@class='xfmc1']");
+    private By mailSubjectLocator = By.xpath("//div[@class='fz-20 ff-futura-demi gray-color ng-binding']");
 
     public MailinatorPage(WebDriver driver) {
         super(driver);
@@ -24,17 +25,17 @@ public class MailinatorPage extends BasePage {
     }
 
     public void inputMailinatorEmail() {
-        driver.findElement(mailinatorSearchField).sendKeys("automation1993");
+        driver.findElement(mailinatorSearchFieldLocator).sendKeys("automation1993");
 
     }
 
     public void clickGoButton() {
-        driver.findElement(mailimatorGoButton).click();
+        driver.findElement(mailinatorGoButtonLocator).click();
     }
 
     public void clickOnLastReceivedLetterOnMailinator() {
-        webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(lastReceivedEmailOnMailinator));
-        driver.findElement(lastReceivedEmailOnMailinator).click();
+        webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(lastReceivedEmailOnMailinatorLocator));
+        driver.findElement(lastReceivedEmailOnMailinatorLocator).click();
     }
 
     public String getSenderEmail() {
@@ -43,11 +44,15 @@ public class MailinatorPage extends BasePage {
 
     public String getTextFromReceivedMailOnMailinator() {
         try {
-            driver.switchTo().frame(driver.findElement(accessToMailinatorEmailBody));
-            return driver.findElement(mailinatorLetter).getText();
+            driver.switchTo().frame(driver.findElement(accessToMailinatorEmailBodyLocator));
+            return driver.findElement(mailinatorLetterLocator).getText();
         } finally {
             driver.switchTo().parentFrame();
         }
+    }
+
+    public String getMailSubjectText(){
+        return driver.findElement(mailSubjectLocator).getText();
     }
 
 

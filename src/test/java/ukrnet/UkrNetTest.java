@@ -13,6 +13,11 @@ import testdata.User;
 public class UkrNetTest {
 
     private WebDriver driver;
+    private String senderEmail = "automation1@ukr.net";
+    private String senderEmailPassword = "ytrewq1234";
+    private String receiverMailinatorEmail =  "automation1993@mailinator.com";
+    private String mailText = "test body";
+    private String mailSubject = "qwerty";
 
     @BeforeClass
     public void setUp() {
@@ -22,7 +27,7 @@ public class UkrNetTest {
 
     @Test
     public void sendEmailToMailinatorTest() {
-        User user = new User("automation1@ukr.net", "ytrewq1234");
+        User user = new User(senderEmail, senderEmailPassword);
         LoginPage loginPage = new LoginPage(driver);
         loginPage.navigate();
         loginPage.login(user);
@@ -31,16 +36,16 @@ public class UkrNetTest {
         MailinatorPage mailinatorPage = new MailinatorPage(driver);
 
         homePage.clickWriteLetter();
-        homePage.writeLetter("automation1993@mailinator.com", "qwerty", "test body");
+        homePage.writeLetter(receiverMailinatorEmail, mailSubject, mailText);
         homePage.sendLetter();
         homePage.letterIsSendWindowIsDispalyed();
         mailinatorPage.navigate();
         mailinatorPage.inputMailinatorEmail();
         mailinatorPage.clickGoButton();
         mailinatorPage.clickOnLastReceivedLetterOnMailinator();
-        //перевір тему листа в тесті в цьому степі
-        Assert.assertEquals("automation1@ukr.net", mailinatorPage.getSenderEmail());
-        Assert.assertEquals("test body", mailinatorPage.getTextFromReceivedMailOnMailinator());
+        Assert.assertEquals(mailSubject, mailinatorPage.getMailSubjectText());
+        Assert.assertEquals(senderEmail, mailinatorPage.getSenderEmail());
+        Assert.assertEquals(mailText, mailinatorPage.getTextFromReceivedMailOnMailinator());
 
     }
 
