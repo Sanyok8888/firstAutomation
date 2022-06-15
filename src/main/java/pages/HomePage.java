@@ -17,6 +17,7 @@ public class HomePage extends BasePage {
     private By bodyIFrame = By.cssSelector("#mce_0_ifr");
     private By letterIsSentWindow = By.cssSelector(".sendmsg__ads-ready");
 
+
     public HomePage(WebDriver driver) {
         super(driver);
         pageUrl = "https://mail.ukr.net/desktop";
@@ -46,14 +47,6 @@ public class HomePage extends BasePage {
         driver.findElement(letterIsSentWindow).isDisplayed();
     }
 
-//    public void letterIsSendWindowIsDispalyed() {
-//        String elementTextLetter = driver.findElement(By.cssSelector(".link3")).getText();
-//        String elementText = driver.findElement(By.cssSelector(".sendmsg__ads-ready")).getText();
-//
-//
-//        System.out.println(elementText.substring(1,18));
-//        webDriverWait.until(ExpectedConditions.textMatches(elementText, Pattern.compile("^Ваш лист надіслано")));
-//        Assert.assertEquals(elementText.substring(1,18),"Ваш лист надіслано");
-//    }
+
 
 }
