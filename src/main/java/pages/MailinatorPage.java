@@ -20,6 +20,7 @@ public class MailinatorPage extends BasePage {
         pageUrl = "https://www.mailinator.com/";
     }
 
+
     public void navigate() {
         driver.get(pageUrl);
     }
