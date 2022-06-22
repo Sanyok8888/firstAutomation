@@ -3,22 +3,25 @@ package leafgroundpages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
-public class ElementDisappearancePage extends LeafGeoundBasePage{
+public class ElementDisappearancePage extends LeafGeoundBasePage {
 
-    private By dissapearButton = By.xpath("//button[@id='btn']");
+    @FindBy(xpath = "//button[@id='btn']")
+    private WebElement disappearButton;
 
-
-    public  ElementDisappearancePage(WebDriver driver){
+    public ElementDisappearancePage(WebDriver driver) {
         super(driver);
         pageUrl = "http://www.leafground.com/pages/disapper.html";
+        PageFactory.initElements(driver, this);
     }
 
-    public void navigate(){
+    public void navigate() {
         driver.get(pageUrl);
     }
 
-    public void waitUntilButtonDisappear(){
+    public void waitUntilButtonDisappear() {
 
     }
 

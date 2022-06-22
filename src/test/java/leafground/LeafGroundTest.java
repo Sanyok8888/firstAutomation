@@ -17,9 +17,10 @@ public class LeafGroundTest {
 
     @Test
     public void WaitUntilElementDisappear(){
-        ElementDisappearancePage ElementDisappearPage = new ElementDisappearancePage(driver);
-        ElementDisappearPage.navigate();
+        ElementDisappearancePage elementDisappearPage = new ElementDisappearancePage(driver);
+        elementDisappearPage.navigate();
 
+        elementDisappearPage.waitUntilButtonDisappear();
     }
 
 }

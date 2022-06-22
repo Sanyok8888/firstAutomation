@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04c6655c-fa49-4516-9d99-9607ab4a4891" name="Changes" comment="Message">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leafgroundpages/ElementDisappearancePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leafgroundpages/LeafGeoundBasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leafground/LeafGroundTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leafgroundpages/ElementDisappearancePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leafgroundpages/ElementDisappearancePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leafground/LeafGroundTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leafground/LeafGroundTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,12 +53,12 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="TestNG.LeafGroundTest.WaitUntilElementDisappear">
-    <configuration name="CheckBoxTest.checkDeselectOnlyCheckedCheckboxTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.LeafGroundTest">
+    <configuration name="CheckBoxTest.selectAllBelowCheckboxesTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="myautomation" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CheckBoxTest" />
-      <option name="METHOD_NAME" value="checkDeselectOnlyCheckedCheckboxTest" />
+      <option name="METHOD_NAME" value="selectAllBelowCheckboxesTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -66,12 +66,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckBoxTest.selectAllBelowCheckboxesTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LeafGroundTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="myautomation" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CheckBoxTest" />
-      <option name="METHOD_NAME" value="selectAllBelowCheckboxesTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leafground.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leafground" />
+      <option name="MAIN_CLASS_NAME" value="leafground.LeafGroundTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -133,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LeafGroundTest.WaitUntilElementDisappear" />
+        <item itemvalue="TestNG.LeafGroundTest" />
         <item itemvalue="TestNG.UkrNetTest.sendEmailToMailinatorTest" />
+        <item itemvalue="TestNG.LeafGroundTest.WaitUntilElementDisappear" />
         <item itemvalue="TestNG.UkrNetTest" />
         <item itemvalue="TestNG.CheckBoxTest.selectAllBelowCheckboxesTest" />
-        <item itemvalue="TestNG.CheckBoxTest.checkDeselectOnlyCheckedCheckboxTest" />
       </list>
     </recent_temporary>
   </component>
