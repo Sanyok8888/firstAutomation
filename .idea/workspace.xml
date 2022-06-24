@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="04c6655c-fa49-4516-9d99-9607ab4a4891" name="Changes" comment="Message">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leafgroundpages/ElementDisappearancePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leafgroundpages/ElementDisappearancePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leafground/LeafGroundTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leafground/LeafGroundTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +51,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="TestNG.LeafGroundTest">
+  <component name="RunManager" selected="TestNG.LeafGroundTest.WaitUntilElementDisappear">
     <configuration name="CheckBoxTest.selectAllBelowCheckboxesTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="myautomation" />
       <option name="PACKAGE_NAME" value="" />
@@ -138,10 +136,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LeafGroundTest" />
-        <item itemvalue="TestNG.UkrNetTest.sendEmailToMailinatorTest" />
         <item itemvalue="TestNG.LeafGroundTest.WaitUntilElementDisappear" />
+        <item itemvalue="TestNG.UkrNetTest.sendEmailToMailinatorTest" />
         <item itemvalue="TestNG.UkrNetTest" />
+        <item itemvalue="TestNG.LeafGroundTest" />
         <item itemvalue="TestNG.CheckBoxTest.selectAllBelowCheckboxesTest" />
       </list>
     </recent_temporary>
