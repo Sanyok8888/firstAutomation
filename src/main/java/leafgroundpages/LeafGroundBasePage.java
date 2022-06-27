@@ -17,8 +17,12 @@ public abstract class LeafGeoundBasePage {
         webDriverWait = new WebDriverWait(driver, Duration.ofSeconds(4));
     }
 
-    public void getPageUrl() {
+    public void getPageUrl() {return pageUrl;}
+
+    public void waitUintilLoaded() {
         new WebDriverWait(driver, Duration.ofSeconds(4)).until(ExpectedConditions.urlContains(pageUrl));
     }
+
+
 
 }
