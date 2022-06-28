@@ -2,6 +2,7 @@ package ukrnet;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -9,6 +10,8 @@ import pages.HomePage;
 import pages.LoginPage;
 import pages.MailinatorPage;
 import testdata.User;
+
+import java.time.Duration;
 
 public class UkrNetTest {
 
@@ -23,6 +26,7 @@ public class UkrNetTest {
     public void setUp() {
         System.setProperty("selenium.chrome.driver", "chromedriver.exe");
         driver = new ChromeDriver();
+//        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     }
 
     @Test
@@ -35,11 +39,13 @@ public class UkrNetTest {
         homePage.waitUntilLoaded();
         MailinatorPage mailinatorPage = new MailinatorPage(driver);
 
+
         homePage.clickWriteLetter();
         homePage.writeLetter(receiverMailinatorEmail, mailSubject, mailText);
         homePage.sendLetter();
         homePage.letterIsSendWindowIsDispalyed();
         mailinatorPage.navigate();
+        mailinatorPage.waitUntilLoaded();
         mailinatorPage.inputMailinatorEmail();
         mailinatorPage.clickGoButton();
         mailinatorPage.clickOnLastReceivedLetterOnMailinator();

@@ -24,7 +24,6 @@ public abstract class BasePage {
     }
 
     public void waitUntilLoaded() {
-        new WebDriverWait(driver, Duration.ofSeconds(4)).until(ExpectedConditions.urlContains(pageUrl));
-
+        new WebDriverWait(driver, Duration.ofSeconds(7)).until(ExpectedConditions.urlContains(pageUrl));
     }
 }

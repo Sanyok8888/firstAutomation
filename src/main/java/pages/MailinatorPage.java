@@ -3,6 +3,9 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
 
 
 public class MailinatorPage extends BasePage {
@@ -17,9 +20,8 @@ public class MailinatorPage extends BasePage {
 
     public MailinatorPage(WebDriver driver) {
         super(driver);
-        pageUrl = "https://www.mailinator.com/";
+        pageUrl = "https://www.mailinator.com";
     }
-
 
     public void navigate() {
         driver.get(pageUrl);

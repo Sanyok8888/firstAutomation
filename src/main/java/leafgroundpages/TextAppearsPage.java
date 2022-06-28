@@ -1,34 +1,34 @@
 package leafgroundpages;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.DataProvider;
 
 import java.time.Duration;
 
-public class ElementDisappearancePage extends LeafGroundBasePage {
+public class TextAppearsPage extends LeafGroundBasePage{
 
-    public ElementDisappearancePage(WebDriver driver) {
+    public TextAppearsPage(WebDriver driver){
         super(driver);
-        pageUrl = "http://www.leafground.com/pages/disapper.html";
+        pageUrl = "http://www.leafground.com/pages/TextChange.html";
         PageFactory.initElements(driver, this);
     }
 
-    WebDriverWait webDriverWait = new WebDriverWait(driver, Duration.ofSeconds(20));
+    WebDriverWait webDriverWait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
     @FindBy(xpath = "//button[@id='btn']")
-    private WebElement disappearButton;
+    private WebElement changeTextElement;
 
     public void navigate() {
         driver.get(pageUrl);
     }
 
-    public void waitUntilButtonDisappear() {
-        webDriverWait.until(ExpectedConditions.invisibilityOf(disappearButton));
+    public void waitUntilTextIsChanged(){
+        webDriverWait.until(ExpectedConditions.textToBePresentInElement(changeTextElement,"Click ME"));
     }
 
 }

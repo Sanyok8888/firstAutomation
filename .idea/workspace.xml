@@ -5,7 +5,64 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04c6655c-fa49-4516-9d99-9607ab4a4891" name="Changes" comment="Message">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leafgroundpages/ElementAppearsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leafgroundpages/TextAppearsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leafgroundpages/ElementDisappearancePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leafgroundpages/ElementDisappearancePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leafgroundpages/LeafGroundBasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leafgroundpages/LeafGroundBasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/MailinatorPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/MailinatorPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leafground/LeafGroundTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leafground/LeafGroundTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ukrnet/UkrNetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ukrnet/UkrNetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leafgroundpages/ElementDisappearancePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leafgroundpages/LeafGeoundBasePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/BasePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/MailinatorPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/testdata/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Command line suite/Command line test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Command line suite/Command line test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Command line suite/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/jquery-3.6.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-leafground.LeafGroundTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-ukrnet.UkrNetTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/Command line test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/leafground/LeafGroundTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ukrnet/UkrNetTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +79,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="page-factory-homeWork" />
+        <entry key="$PROJECT_DIR$" value="lesson18" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -51,19 +108,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="TestNG.LeafGroundTest.WaitUntilElementDisappear">
-    <configuration name="CheckBoxTest.selectAllBelowCheckboxesTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="myautomation" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CheckBoxTest" />
-      <option name="METHOD_NAME" value="selectAllBelowCheckboxesTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.LeafGroundTest">
     <configuration name="LeafGroundTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="myautomation" />
       <extension name="coverage">
@@ -75,6 +120,24 @@
       <option name="PACKAGE_NAME" value="leafground" />
       <option name="MAIN_CLASS_NAME" value="leafground.LeafGroundTest" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeafGroundTest.WaitUntilElementAppears" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="myautomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leafground.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leafground" />
+      <option name="MAIN_CLASS_NAME" value="leafground.LeafGroundTest" />
+      <option name="METHOD_NAME" value="WaitUntilElementAppears" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -99,17 +162,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UkrNetTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LeafGroundTest.WaitUntilTextIsChanged" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="myautomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ukrnet.*" />
+          <option name="PATTERN" value="leafground.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ukrnet" />
-      <option name="MAIN_CLASS_NAME" value="ukrnet.UkrNetTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="leafground" />
+      <option name="MAIN_CLASS_NAME" value="leafground.LeafGroundTest" />
+      <option name="METHOD_NAME" value="WaitUntilTextIsChanged" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -136,11 +200,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LeafGroundTest.WaitUntilElementDisappear" />
-        <item itemvalue="TestNG.UkrNetTest.sendEmailToMailinatorTest" />
-        <item itemvalue="TestNG.UkrNetTest" />
         <item itemvalue="TestNG.LeafGroundTest" />
-        <item itemvalue="TestNG.CheckBoxTest.selectAllBelowCheckboxesTest" />
+        <item itemvalue="TestNG.LeafGroundTest.WaitUntilTextIsChanged" />
+        <item itemvalue="TestNG.UkrNetTest.sendEmailToMailinatorTest" />
+        <item itemvalue="TestNG.LeafGroundTest.WaitUntilElementAppears" />
+        <item itemvalue="TestNG.LeafGroundTest.WaitUntilElementDisappear" />
       </list>
     </recent_temporary>
   </component>
