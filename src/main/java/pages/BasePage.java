@@ -1,6 +1,8 @@
 package pages;
 
+import com.codeborne.selenide.WebDriverRunner;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -17,6 +19,10 @@ public abstract class BasePage {
 
         this.driver = driver;
         webDriverWait = new WebDriverWait(driver,Duration.ofSeconds(4));
+    }
+
+    public BasePage(){
+        PageFactory.initElements(WebDriverRunner.getWebDriver(), this);
     }
 
     public String getPageUrl() {

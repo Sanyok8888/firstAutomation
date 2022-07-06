@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04c6655c-fa49-4516-9d99-9607ab4a4891" name="Changes" comment="Message">
-      <change beforePath="$PROJECT_DIR$/src/test/java/leafground/LeafGroundTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leafground/LeafGroundTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/GoogleHomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/selenide/GoogleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myautomation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/myautomation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,18 +56,19 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="TestNG.LeafGroundTest">
-    <configuration name="LeafGroundTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.GoogleTest.userShouldSearch">
+    <configuration name="GoogleTest.userShouldSearch" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="myautomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leafground.*" />
+          <option name="PATTERN" value="selenide.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leafground" />
-      <option name="MAIN_CLASS_NAME" value="leafground.LeafGroundTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="selenide" />
+      <option name="MAIN_CLASS_NAME" value="selenide.GoogleTest" />
+      <option name="METHOD_NAME" value="userShouldSearch" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -143,7 +149,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LeafGroundTest" />
+        <item itemvalue="TestNG.GoogleTest.userShouldSearch" />
         <item itemvalue="TestNG.UkrNetTest.sendEmailToMailinatorTest" />
         <item itemvalue="TestNG.LeafGroundTest.WaitUntilTextIsChanged" />
         <item itemvalue="TestNG.LeafGroundTest.WaitUntilElementDisappear" />
