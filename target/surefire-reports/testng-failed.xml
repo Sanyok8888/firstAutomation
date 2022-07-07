@@ -5,9 +5,7 @@
     <classes>
       <class name="leafground.LeafGroundTest">
         <methods>
-          <include name="WaitUntilElementAppears"/>
           <include name="setUp"/>
-          <include name="WaitUntilElementDisappear"/>
           <include name="WaitUntilTextIsChanged"/>
         </methods>
       </class> <!-- leafground.LeafGroundTest -->

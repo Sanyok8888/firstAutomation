@@ -5,12 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04c6655c-fa49-4516-9d99-9607ab4a4891" name="Changes" comment="Message">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/GoogleHomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/selenide/GoogleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/SearchSelenideTestGoogleHomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/selenidehomework/SearchSelenideTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myautomation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/myautomation.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leafgroundpages/ElementDisappearancePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leafgroundpages/ElementDisappearancePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leafgroundpages/LeafGroundBasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leafgroundpages/LeafGroundBasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leafgroundpages/TextAppearsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leafgroundpages/TextAppearsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/GoogleHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/GoogleHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/MailinatorPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/MailinatorPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leafgroundpages/ElementDisappearancePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leafgroundpages/ElementDisappearancePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leafgroundpages/LeafGroundBasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leafgroundpages/LeafGroundBasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leafgroundpages/TextAppearsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leafgroundpages/TextAppearsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/GoogleHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/GoogleHomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/MailinatorPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/MailinatorPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Command line suite/Command line test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Command line suite/Command line test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Command line suite/Command line test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Command line suite/Command line test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Command line suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Command line suite/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-leafground.LeafGroundTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-leafground.LeafGroundTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-ukrnet.UkrNetTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-ukrnet.UkrNetTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,10 +55,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/main" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="page-object" />
+        <entry key="$PROJECT_DIR$" value="waiters_homework" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -51,48 +85,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="TestNG.GoogleTest.userShouldSearch">
-    <configuration name="GoogleTest.userShouldSearch" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="myautomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="selenide.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="selenide" />
-      <option name="MAIN_CLASS_NAME" value="selenide.GoogleTest" />
-      <option name="METHOD_NAME" value="userShouldSearch" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LeafGroundTest.WaitUntilElementAppears" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="myautomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leafground.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leafground" />
-      <option name="MAIN_CLASS_NAME" value="leafground.LeafGroundTest" />
-      <option name="METHOD_NAME" value="WaitUntilElementAppears" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.SearchSelenideTest.Borjomi">
     <configuration name="LeafGroundTest.WaitUntilElementDisappear" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="myautomation" />
       <extension name="coverage">
@@ -129,6 +128,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SearchSelenideTest.Borjomi" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="myautomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selenidehomework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="selenidehomework" />
+      <option name="MAIN_CLASS_NAME" value="selenidehomework.SearchSelenideTest" />
+      <option name="METHOD_NAME" value="Borjomi" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchSelenideTest.SearchSelenideInGoogle" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="myautomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selenidehomework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="selenidehomework" />
+      <option name="MAIN_CLASS_NAME" value="selenidehomework.SearchSelenideTest" />
+      <option name="METHOD_NAME" value="SearchSelenideInGoogle" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UkrNetTest.sendEmailToMailinatorTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="myautomation" />
       <extension name="coverage">
@@ -149,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.GoogleTest.userShouldSearch" />
-        <item itemvalue="TestNG.UkrNetTest.sendEmailToMailinatorTest" />
+        <item itemvalue="TestNG.SearchSelenideTest.Borjomi" />
+        <item itemvalue="TestNG.SearchSelenideTest.SearchSelenideInGoogle" />
         <item itemvalue="TestNG.LeafGroundTest.WaitUntilTextIsChanged" />
+        <item itemvalue="TestNG.UkrNetTest.sendEmailToMailinatorTest" />
         <item itemvalue="TestNG.LeafGroundTest.WaitUntilElementDisappear" />
-        <item itemvalue="TestNG.LeafGroundTest.WaitUntilElementAppears" />
       </list>
     </recent_temporary>
   </component>
