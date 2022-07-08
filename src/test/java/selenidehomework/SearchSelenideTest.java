@@ -26,6 +26,8 @@ public class SearchSelenideTest {
         searchSelenideTestGoogleHomePage.FoundSelenideValues();
         searchSelenideTestGoogleHomePage.clickOnFirstLinkAfterSearch();
         searchSelenideTestGoogleHomePage.verifyEnteringToTheFirstLink();
+        searchSelenideTestGoogleHomePage.clickOnBlogButtonOnSelenideSitePage();
+        searchSelenideTestGoogleHomePage.verifyEnteringToBlogOnSelenideSite();
     }
 
 }
