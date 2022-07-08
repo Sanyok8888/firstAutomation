@@ -25,6 +25,7 @@ public class SearchSelenideTest {
         searchSelenideTestGoogleHomePage.pressEnter();
         searchSelenideTestGoogleHomePage.FoundSelenideValues();
         searchSelenideTestGoogleHomePage.clickOnFirstLinkAfterSearch();
+        searchSelenideTestGoogleHomePage.verifyEnteringToTheFirstLink();
     }
 
 }
