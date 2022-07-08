@@ -1,5 +1,6 @@
 package selenidehomework;
 
+import com.codeborne.selenide.CollectionCondition;
 import com.codeborne.selenide.Configuration;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -22,19 +23,8 @@ public class SearchSelenideTest {
         searchSelenideTestGoogleHomePage.VerifyGoogleSearchFieldVisibility();
         searchSelenideTestGoogleHomePage.SetSearchText("Selenide");
         searchSelenideTestGoogleHomePage.pressEnter();
+        searchSelenideTestGoogleHomePage.FoundSelenideValues();
+        searchSelenideTestGoogleHomePage.clickOnFirstLinkAfterSearch();
     }
 
-
-
-    //        $("[name='q']")
-//                .shouldBe(visible)
-//                .setValue("Selenide").pressEnter()
-//                .pressEnter();
-//        $$x("//h3[contains(text(), 'Selenide')]")
-//                .filter(visible)
-//                .shouldHave(sizeGreaterThanOrEqual(7))
-//                .get(0)
-//                .click();
-//        $(".donate_header")
-//                .shouldHave(text("Selenide Supports Ukraine \uD83C\uDDFA\uD83C\uDDE6"));
 }
