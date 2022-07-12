@@ -24,7 +24,7 @@ public class SearchSelenideTestGoogleHomePage {
         return this;
     }
 
-    public SearchSelenideTestGoogleHomePage pressEnter() {
+    public SearchSelenideTestGoogleHomePage PressEnter() {
         $(GOOGLE_SEARCH_FIELD).pressEnter();
         return this;
     }
@@ -34,7 +34,7 @@ public class SearchSelenideTestGoogleHomePage {
         return this;
     }
 
-    public SearchSelenideTestGoogleHomePage clickOnFirstLinkAfterSearch() {
+    public SearchSelenideTestGoogleHomePage ClickOnFirstLinkAfterSearch() {
         $$(SELENIDE_ON_SEARCH_RESULT_PAGE)
                 .shouldHave(CollectionCondition.sizeGreaterThan(7))
                 .get(0)
@@ -42,19 +42,19 @@ public class SearchSelenideTestGoogleHomePage {
         return this;
     }
 
-    public SearchSelenideTestGoogleHomePage verifyEnteringToTheFirstLink() {
+    public SearchSelenideTestGoogleHomePage VerifyEnteringToTheFirstLink() {
         $(SELENIDE_WEBSITE_HEADER).shouldBe(visible);
         return this;
     }
 
-    public SearchSelenideTestGoogleHomePage clickOnBlogButtonOnSelenideSitePage() {
+    public SearchSelenideTestGoogleHomePage ClickOnBlogButtonOnSelenideSitePage() {
         $(SELENIDE_SITE_BLOG_BUTTON)
                 .shouldBe(visible)
                 .click();
         return this;
     }
 
-    public SearchSelenideTestGoogleHomePage verifyEnteringToBlogOnSelenideSite() {
+    public SearchSelenideTestGoogleHomePage VerifyEnteringToBlogOnSelenideSite() {
         $(SELENIDE_BLOG_PAGE_HEADER)
                 .shouldBe(visible);
         return this;

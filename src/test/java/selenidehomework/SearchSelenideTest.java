@@ -22,12 +22,12 @@ public class SearchSelenideTest {
 
         searchSelenideTestGoogleHomePage.VerifyGoogleSearchFieldVisibility();
         searchSelenideTestGoogleHomePage.SetSearchText("Selenide");
-        searchSelenideTestGoogleHomePage.pressEnter();
+        searchSelenideTestGoogleHomePage.PressEnter();
         searchSelenideTestGoogleHomePage.FoundSelenideValues();
-        searchSelenideTestGoogleHomePage.clickOnFirstLinkAfterSearch();
-        searchSelenideTestGoogleHomePage.verifyEnteringToTheFirstLink();
-        searchSelenideTestGoogleHomePage.clickOnBlogButtonOnSelenideSitePage();
-        searchSelenideTestGoogleHomePage.verifyEnteringToBlogOnSelenideSite();
+        searchSelenideTestGoogleHomePage.ClickOnFirstLinkAfterSearch();
+        searchSelenideTestGoogleHomePage.VerifyEnteringToTheFirstLink();
+        searchSelenideTestGoogleHomePage.ClickOnBlogButtonOnSelenideSitePage();
+        searchSelenideTestGoogleHomePage.VerifyEnteringToBlogOnSelenideSite();
     }
 
 }
