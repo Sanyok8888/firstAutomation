@@ -14,27 +14,27 @@ public class SearchSelenideTestGoogleHomePage {
     private static final By SELENIDE_SITE_BLOG_BUTTON = By.xpath("//a[@href='/blog.html'] [text()='Blog']");
     private static final By SELENIDE_BLOG_PAGE_HEADER = By.xpath("//h3[text()='Selenide blog']");
 
-    public SearchSelenideTestGoogleHomePage VerifyGoogleSearchFieldVisibility() {
+    public SearchSelenideTestGoogleHomePage verifyGoogleSearchFieldVisibility() {
         $(GOOGLE_SEARCH_FIELD).shouldBe(visible);
         return this;
     }
 
-    public SearchSelenideTestGoogleHomePage SetSearchText(String text) {
+    public SearchSelenideTestGoogleHomePage setSearchText(String text) {
         $(GOOGLE_SEARCH_FIELD).setValue(text);
         return this;
     }
 
-    public SearchSelenideTestGoogleHomePage PressEnter() {
+    public SearchSelenideTestGoogleHomePage pressEnter() {
         $(GOOGLE_SEARCH_FIELD).pressEnter();
         return this;
     }
 
-    public SearchSelenideTestGoogleHomePage FoundSelenideValues() {
+    public SearchSelenideTestGoogleHomePage foundSelenideValues() {
         $$(SELENIDE_ON_SEARCH_RESULT_PAGE).shouldHave(sizeGreaterThan(7));
         return this;
     }
 
-    public SearchSelenideTestGoogleHomePage ClickOnFirstLinkAfterSearch() {
+    public SearchSelenideTestGoogleHomePage clickOnFirstLinkAfterSearch() {
         $$(SELENIDE_ON_SEARCH_RESULT_PAGE)
                 .shouldHave(CollectionCondition.sizeGreaterThan(7))
                 .get(0)
@@ -42,19 +42,19 @@ public class SearchSelenideTestGoogleHomePage {
         return this;
     }
 
-    public SearchSelenideTestGoogleHomePage VerifyEnteringToTheFirstLink() {
+    public SearchSelenideTestGoogleHomePage verifyEnteringToTheFirstLink() {
         $(SELENIDE_WEBSITE_HEADER).shouldBe(visible);
         return this;
     }
 
-    public SearchSelenideTestGoogleHomePage ClickOnBlogButtonOnSelenideSitePage() {
+    public SearchSelenideTestGoogleHomePage clickOnBlogButtonOnSelenideSitePage() {
         $(SELENIDE_SITE_BLOG_BUTTON)
                 .shouldBe(visible)
                 .click();
         return this;
     }
 
-    public SearchSelenideTestGoogleHomePage VerifyEnteringToBlogOnSelenideSite() {
+    public SearchSelenideTestGoogleHomePage verifyEnteringToBlogOnSelenideSite() {
         $(SELENIDE_BLOG_PAGE_HEADER)
                 .shouldBe(visible);
         return this;

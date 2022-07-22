@@ -20,14 +20,14 @@ public class SearchSelenideTest {
         open("https://google.com");
         SearchSelenideTestGoogleHomePage searchSelenideTestGoogleHomePage = new SearchSelenideTestGoogleHomePage();
 
-        searchSelenideTestGoogleHomePage.VerifyGoogleSearchFieldVisibility();
-        searchSelenideTestGoogleHomePage.SetSearchText("Selenide");
-        searchSelenideTestGoogleHomePage.PressEnter();
-        searchSelenideTestGoogleHomePage.FoundSelenideValues();
-        searchSelenideTestGoogleHomePage.ClickOnFirstLinkAfterSearch();
-        searchSelenideTestGoogleHomePage.VerifyEnteringToTheFirstLink();
-        searchSelenideTestGoogleHomePage.ClickOnBlogButtonOnSelenideSitePage();
-        searchSelenideTestGoogleHomePage.VerifyEnteringToBlogOnSelenideSite();
+        searchSelenideTestGoogleHomePage.verifyGoogleSearchFieldVisibility();
+        searchSelenideTestGoogleHomePage.setSearchText("Selenide");
+        searchSelenideTestGoogleHomePage.pressEnter();
+        searchSelenideTestGoogleHomePage.foundSelenideValues();
+        searchSelenideTestGoogleHomePage.clickOnFirstLinkAfterSearch();
+        searchSelenideTestGoogleHomePage.verifyEnteringToTheFirstLink();
+        searchSelenideTestGoogleHomePage.clickOnBlogButtonOnSelenideSitePage();
+        searchSelenideTestGoogleHomePage.verifyEnteringToBlogOnSelenideSite();
     }
 
 }
